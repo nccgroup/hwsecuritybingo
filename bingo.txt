@@ -1,0 +1,51 @@
+"But... we’re FIPS compliant!"
+Trust anchor is an insecure MCU
+Root console via UART
+Firmware integrity check is a CRC
+Firmware is encrypted but not signed
+Firmware is verified upon install but not boot
+No rollback protection
+No root password
+Everything runs as root
+Uses an FPGA for literally no reason
+Arbitrary kernel memory R/W primitives... for debugging
+Roll your own crypto
+World-writable kernel modules loaded at boot
+Uses TLS but accepts any certificate
+Pre-auth remote code execution
+Exposed SWD/JTAG
+Plaintext credentials stored in flash/EEPROM
+No compiler/linker mitigations
+Unprotected U-Boot console
+Factory reset doesn’t erase user PII
+Everything is world-R/W
+Engineering artifacts left on filesystem
+No secure boot to speak of
+Vendor RMA backdoor
+Uses a 2.6.x Linux kernel
+Uses a TPM to "mitigate" physical attacks
+No or bad entropy source
+Simply can't update the software
+Non-constant time password verification
+Security fuses not programmed
+EULA has a "no reverse engineering" clause
+Physical security provided by Kensington Lock
+Physical security provided by epoxy potting
+Secure boot from XIP flash
+IoT device has netcat for some reason
+JTAG "protected" by tamper evident seal
+Android device with userdebug build
+MCU flash read-protection not enabled
+UART "disabled" by depopulated resistors.
+Privacy switch or LED indicator is software controlled
+Secure and non-secure peripherals share bus
+Unprotected device identity
+Boot mode configuration controlled by strap resistors
+Device has security override switch
+BLE LTK is hardcoded
+USB SetupPacket memory corruption
+Uses RPMB to store data with confidentiality requirements
+Superfluous of test points enable trivial circuit attacks
+
+
+
