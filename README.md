@@ -3,6 +3,8 @@ Hardware Security Bingo Card Generator
 
 Are you auditing an embedded device? Why not play Hardware Security Bingo to add to the fun?
 
+![alt text](bingo.png)
+
 
 Usage:
 ------
@@ -17,4 +19,5 @@ USAGE: hwsec_bingogen.py  [output HTML file] [# of cards]
 Note:
 ------
 
-This project was forked from https://github.com/hrs/bingo.git and then modified. All credits to the original author.
+Because we're lazy, this project was forked from https://github.com/hrs/bingo.git and then modified. All credits to the original author.
+
